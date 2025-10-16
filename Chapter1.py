@@ -26,6 +26,7 @@ chat = ChatGroq(
     max_retries=2,
 )
 
+#pipe operator
 chain_1 = (
     {
             "country": lambda x:x["country"]
